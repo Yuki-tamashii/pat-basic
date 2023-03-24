@@ -1,0 +1,5 @@
+int comp(const void* a, const void* b)
+{
+	int* pa = a, * pb = b;
+	return *pb - *pa;
+}
